@@ -1,0 +1,35 @@
+
+<html>
+	<head>
+		<title>
+			Add or Concat two numbers
+		</title>
+	<body>
+		<h1 title="TITLE">Add or Concat two numbers</h1>
+		<script>
+		function concat()
+			{
+				var a,b,s;
+				a=document.getElementById("num1").value;
+				b=document.getElementById("num2").value;
+				s=a+b;
+				document.getElementById("result").value=s;
+			}
+		function add()
+			{
+				var a,b,s;
+				a=document.getElementById("num1").value;
+				b=document.getElementById("num2").value;
+				s=a+ "+" +b;
+				document.getElementById("result").value=eval(s);
+			}
+	</script>
+		
+		<input title="Number1" type="text" id="num1" name="num1" ><br><br>
+		<input title="Number2" type="text" id="num2" name="num2"><br><br>
+		<input type="button" id=b1 name="b1" value="concat" onclick="concat()">&nbsp;
+		<input type="button" id=b3 name="b2" value="add" onclick="add()"><br><br>
+	        <input title="result" type="text" id="result" name="result" disabled>
+			
+	</body>
+</html>
