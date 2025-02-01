@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>
+			Login
+		</title>
+	</head>
+	<body>
+		<br>
+		<br>
+		<center>
+		<h1>LOGIN</h1> <br><br>
+		
+		Username:
+		<input type="text" name="t1" id=t2">
+		<br>
+		<br>
+		Password:
+		<input type="password" name="t2" id="t2">
+		<br>
+		<br>
+		<input type="button" name="t3" id="t3" value="login">
+		&nbsp;&nbsp;&nbsp;
+		<input type="button" name="t3" id="t3" value="register">
+		</center>
+	</body>
+</html>
