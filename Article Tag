@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Article</title>
+	<style>
+		h1{
+			color:#006400;
+			font-size:50 px;
+			text-alignLleft;
+			}
+		p{
+			font-size:25px;
+			text-align:left;
+			margin-top:0;
+		}
+		</style>
+		</head>
+		<body>
+			<h1>Article</h1>
+			<article>
+				<header>
+					<h2>This is header</h2></header>
+				hello this is an article
+				<footer>
+					All rights reserved</footer>
+				<a href="mailto:aakashninangikku@gmail.com">aakashninangikku</a>
+
+			</article>
+	</body>
+	</html>
