@@ -1,0 +1,32 @@
+
+<html>
+	<head>
+		<title>Mouse move example</title>
+	</head>
+	<style>
+	body{
+		text-align:center;
+		font family:Arial,sans-serif;	
+		transition: background-colour 0.3s ease;
+		}
+	#message{
+		margin top:20%;
+		font size:24px;
+		font weight:bold;
+		}
+	</style>
+	</head>
+	<body onmousemove="changecolor(event)">
+		<div id="message"><b>Move your mouse around</b></div>
+	<script>
+		function changecolor(event){
+		// generate random colors based on mouse position
+		let red=event.clientX%256;
+		let green=event.clientY%256;
+		let blue=(event.clientX+event.clientY)%256;
+		document.body.style.backgroundColor=`rgb(${red},${green},${blue})`;
+		}
+	</script>
+	</body>
+	</html>
+	
