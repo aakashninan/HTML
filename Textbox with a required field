@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>Example for required Tag</title>
+	</head>
+	<body>
+		<h1 title="TITLE">Example for required attribute</h1>
+	<form>
+	<label for="user_name">Input User Name:</label>
+	<input type="text" id="user_name" name="user_name" required>
+	<input type="submit">
+	</form>
+	</body>
+</html>
