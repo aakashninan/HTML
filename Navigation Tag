@@ -1,0 +1,10 @@
+<html>
+	<body>
+	<h1>the nav element</h1>
+	<p>It is used to create a navigation tab</p>
+	<nav>
+		<a href="articletag.html">article</a>
+		<a href="asidetag.html">aside</a>
+	</nav>
+	</body>
+	</html>
