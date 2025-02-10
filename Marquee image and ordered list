@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>Moving image>
+		</title>
+	</head>
+	<body>
+		<b> Moving image marquee<b/b>
+		<marquee scrollamount=30>
+			<a href="font tag face.html"><img src="logo.png"></a>
+		</marquee>
+		<marquee scrollamount=10>
+			<ol>		
+				<li>Apple</li>
+				<li>Orange</li>
+				<li>Grapes</li>
+			</ol>
+		</marquee>
+	</body>
+	<html>
